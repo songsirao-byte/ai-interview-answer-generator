@@ -58,7 +58,6 @@ export default function Home() {
     <main className="min-h-screen bg-[#F6FBF7] text-gray-900">
       
       <TopNav />
-<TopNav />
 
       {/* Hero */}
       <section className="mx-auto max-w-4xl px-6 pt-16 text-center">
