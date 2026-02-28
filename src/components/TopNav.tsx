@@ -29,7 +29,7 @@ export default function TopNav() {
             </svg>
           </div>
           <span className="text-sm font-semibold tracking-tight">
-            AI Interview Answer Generator
+            AI Interview Answer Generator · NAV_LIVE_001
           </span>
         </div>
 
