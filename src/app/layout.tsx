@@ -4,7 +4,7 @@ import "./globals.css";
 const siteName = "AI Interview Answer Generator";
 const siteDescription =
   "Paste a job description and your resume to generate stage-specific interview questions, STAR answer frameworks, and key tips (mock).";
-const siteUrl = "https://example.com"; // TODO: replace with your Vercel domain after deployment
+const siteUrl = "https://ai-interview-answer-generator-1.vercel.app"; // TODO: replace with your Vercel domain after deployment
 const ogImage = "/opengraph.png"; // optional (we can add later)
 
 export const metadata: Metadata = {

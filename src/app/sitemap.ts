@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://example.com"; 
+  const baseUrl = "https://ai-interview-answer-generator-1.vercel.app"; 
   // 🚨 部署到 Vercel 后改成你的真实域名
 
   return [
