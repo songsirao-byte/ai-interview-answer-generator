@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import TopNav from "@/components/TopNav";
 import { useRouter } from "next/navigation";
 
 type Stage = "HR" | "Hiring Manager" | "Leadership";
@@ -55,6 +56,10 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#F6FBF7] text-gray-900">
+      
+      <TopNav />
+<TopNav />
+
       {/* Hero */}
       <section className="mx-auto max-w-4xl px-6 pt-16 text-center">
         <div className="mx-auto inline-flex items-center rounded-full border border-emerald-200 bg-white px-4 py-1 text-[10px] font-semibold tracking-widest text-emerald-600">
