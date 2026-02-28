@@ -1,0 +1,37 @@
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-gray-50 text-gray-900">
+      {/* Top Nav */}
+      <header className="w-full bg-white shadow-sm">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+          <div className="flex items-center gap-2">
+            <div className="h-8 w-8 rounded-lg bg-green-600" />
+            <span className="text-base font-semibold">
+              AI Interview Answer Generator
+            </span>
+          </div>
+
+          <nav className="flex items-center gap-6 text-sm text-gray-600">
+            <a className="hover:text-gray-900" href="#">
+              Dashboard
+            </a>
+            <a className="hover:text-gray-900" href="#">
+              History
+            </a>
+            <button className="rounded-lg bg-green-600 px-4 py-2 font-medium text-white hover:bg-green-700">
+              Upgrade Plan
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <h1 className="text-3xl font-semibold">Input Page (Step 1)</h1>
+        <p className="mt-2 text-gray-600">
+          下一步我们会加：标题区、三个输入框、面试阶段选择、Generate 按钮、FAQ。
+        </p>
+      </section>
+    </main>
+  );
+}
+
